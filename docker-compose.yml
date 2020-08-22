@@ -7,7 +7,7 @@ services:
       - ./build/data/db/:/var/lib/mysql
     restart: always
     ports:
-      - "3321:3306"
+      - "3322:3306"
     environment:
       - MYSQL_DATABASE=testing
       - MYSQL_USER=reactphp
